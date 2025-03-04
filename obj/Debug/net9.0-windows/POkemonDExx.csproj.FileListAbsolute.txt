@@ -1,0 +1,17 @@
+C:\007\VS22\C#-CS\POkemonDExx\bin\Debug\net9.0-windows\POkemonDExx.exe
+C:\007\VS22\C#-CS\POkemonDExx\bin\Debug\net9.0-windows\POkemonDExx.deps.json
+C:\007\VS22\C#-CS\POkemonDExx\bin\Debug\net9.0-windows\POkemonDExx.runtimeconfig.json
+C:\007\VS22\C#-CS\POkemonDExx\bin\Debug\net9.0-windows\POkemonDExx.dll
+C:\007\VS22\C#-CS\POkemonDExx\bin\Debug\net9.0-windows\POkemonDExx.pdb
+C:\007\VS22\C#-CS\POkemonDExx\obj\Debug\net9.0-windows\POkemonDExx.Form1.resources
+C:\007\VS22\C#-CS\POkemonDExx\obj\Debug\net9.0-windows\POkemonDExx.Resource1.resources
+C:\007\VS22\C#-CS\POkemonDExx\obj\Debug\net9.0-windows\POkemonDExx.csproj.GenerateResource.cache
+C:\007\VS22\C#-CS\POkemonDExx\obj\Debug\net9.0-windows\POkemonDExx.GeneratedMSBuildEditorConfig.editorconfig
+C:\007\VS22\C#-CS\POkemonDExx\obj\Debug\net9.0-windows\POkemonDExx.AssemblyInfoInputs.cache
+C:\007\VS22\C#-CS\POkemonDExx\obj\Debug\net9.0-windows\POkemonDExx.AssemblyInfo.cs
+C:\007\VS22\C#-CS\POkemonDExx\obj\Debug\net9.0-windows\POkemonDExx.csproj.CoreCompileInputs.cache
+C:\007\VS22\C#-CS\POkemonDExx\obj\Debug\net9.0-windows\POkemonDExx.dll
+C:\007\VS22\C#-CS\POkemonDExx\obj\Debug\net9.0-windows\refint\POkemonDExx.dll
+C:\007\VS22\C#-CS\POkemonDExx\obj\Debug\net9.0-windows\POkemonDExx.pdb
+C:\007\VS22\C#-CS\POkemonDExx\obj\Debug\net9.0-windows\POkemonDExx.genruntimeconfig.cache
+C:\007\VS22\C#-CS\POkemonDExx\obj\Debug\net9.0-windows\ref\POkemonDExx.dll
