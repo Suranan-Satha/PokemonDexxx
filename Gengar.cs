@@ -21,6 +21,7 @@ namespace POkemonDExx
             this.Speed = 110;
             this.Total = 500;
             this.Name = "Gengar";
+            this.Species = "Shadow Pokemon";
             this.image = Resource1.ResourceManager.GetObject("gengar") as byte[] ?? Array.Empty<byte>();
         }
     }

@@ -21,6 +21,7 @@ namespace POkemonDExx
             this.Speed = 100;
             this.Total = 670;
             this.Name = "Slaking";
+            this.Species = "Lazy Pokemon";
             this.image = Resource1.ResourceManager.GetObject("slaking") as byte[] ?? Array.Empty<byte>();
         }
     }

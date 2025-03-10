@@ -40,6 +40,7 @@ namespace POkemonDExx
             lb_Total.Text = pokemon.getTotal().ToString();
             lb_H.Text = pokemon.getHeight().ToString() + " m";
             lb_W.Text = pokemon.getWeight().ToString() + " kg";
+            lbSpecies.Text = pokemon.getSpecies();
 
             using (var ms = new MemoryStream(pokemon.getImage()))
             {

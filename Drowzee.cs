@@ -21,6 +21,7 @@ namespace POkemonDExx
             this.Speed = 42;
             this.Total = 328;
             this.Name = "Drowzee";
+            this.Species = "Hypnosis Pokemon";
             this.image = Resource1.ResourceManager.GetObject("drowzee") as byte[] ?? Array.Empty<byte>();
         }
     }

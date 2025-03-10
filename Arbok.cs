@@ -21,6 +21,7 @@ namespace POkemonDExx
             this.Speed = 80;
             this.Total = 438;
             this.Name = "Arbok";
+            this.Species = "Cobra Pokemon";
             this.image = Resource1.ResourceManager.GetObject("arbok") as byte[] ?? Array.Empty<byte>();
         }
     }

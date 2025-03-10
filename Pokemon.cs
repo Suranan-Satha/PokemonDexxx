@@ -81,5 +81,9 @@ namespace POkemonDExx
             return this.Weight;
         }
 
+        public string getSpecies()
+        {
+            return this.Species;
+        }
     }
 }

@@ -21,6 +21,7 @@ namespace POkemonDExx
             this.Speed = 90;
             this.Total = 320;
             this.Name = "Pikachu";
+            this.Species = "Mouse Pokemon";
             this.image = Resource1.ResourceManager.GetObject("PIKa") as byte[] ?? Array.Empty<byte>();
         }
     }

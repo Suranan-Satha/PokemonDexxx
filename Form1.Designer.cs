@@ -39,7 +39,6 @@
             label1 = new Label();
             label2 = new Label();
             lbType = new Label();
-            label3 = new Label();
             lb_Total = new Label();
             lb_W = new Label();
             lb_Sp = new Label();
@@ -58,14 +57,18 @@
             label21 = new Label();
             label22 = new Label();
             label23 = new Label();
+            label4 = new Label();
+            lbSpecies = new Label();
+            groupBox1 = new GroupBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(49, 12);
+            pictureBox1.Location = new Point(35, 16);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(241, 300);
+            pictureBox1.Size = new Size(283, 300);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -166,19 +169,10 @@
             lbType.TabIndex = 10;
             lbType.Text = "label2";
             // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(637, 12);
-            label3.Name = "label3";
-            label3.Size = new Size(87, 20);
-            label3.TabIndex = 11;
-            label3.Text = "Basic Status";
-            // 
             // lb_Total
             // 
             lb_Total.AutoSize = true;
-            lb_Total.Location = new Point(743, 226);
+            lb_Total.Location = new Point(360, 204);
             lb_Total.Name = "lb_Total";
             lb_Total.Size = new Size(50, 20);
             lb_Total.TabIndex = 12;
@@ -187,7 +181,7 @@
             // lb_W
             // 
             lb_W.AutoSize = true;
-            lb_W.Location = new Point(743, 173);
+            lb_W.Location = new Point(360, 151);
             lb_W.Name = "lb_W";
             lb_W.Size = new Size(50, 20);
             lb_W.TabIndex = 13;
@@ -196,7 +190,7 @@
             // lb_Sp
             // 
             lb_Sp.AutoSize = true;
-            lb_Sp.Location = new Point(743, 69);
+            lb_Sp.Location = new Point(360, 47);
             lb_Sp.Name = "lb_Sp";
             lb_Sp.Size = new Size(50, 20);
             lb_Sp.TabIndex = 14;
@@ -205,7 +199,7 @@
             // lb_H
             // 
             lb_H.AutoSize = true;
-            lb_H.Location = new Point(743, 119);
+            lb_H.Location = new Point(360, 97);
             lb_H.Name = "lb_H";
             lb_H.Size = new Size(50, 20);
             lb_H.TabIndex = 15;
@@ -214,7 +208,7 @@
             // lb_Hp
             // 
             lb_Hp.AutoSize = true;
-            lb_Hp.Location = new Point(497, 69);
+            lb_Hp.Location = new Point(114, 47);
             lb_Hp.Name = "lb_Hp";
             lb_Hp.Size = new Size(50, 20);
             lb_Hp.TabIndex = 16;
@@ -223,7 +217,7 @@
             // lb_Atk
             // 
             lb_Atk.AutoSize = true;
-            lb_Atk.Location = new Point(497, 119);
+            lb_Atk.Location = new Point(114, 97);
             lb_Atk.Name = "lb_Atk";
             lb_Atk.Size = new Size(50, 20);
             lb_Atk.TabIndex = 17;
@@ -232,7 +226,7 @@
             // lb_Def
             // 
             lb_Def.AutoSize = true;
-            lb_Def.Location = new Point(497, 173);
+            lb_Def.Location = new Point(114, 151);
             lb_Def.Name = "lb_Def";
             lb_Def.Size = new Size(58, 20);
             lb_Def.TabIndex = 18;
@@ -241,7 +235,7 @@
             // lb_SplAtk
             // 
             lb_SplAtk.AutoSize = true;
-            lb_SplAtk.Location = new Point(497, 226);
+            lb_SplAtk.Location = new Point(114, 204);
             lb_SplAtk.Name = "lb_SplAtk";
             lb_SplAtk.Size = new Size(58, 20);
             lb_SplAtk.TabIndex = 19;
@@ -250,7 +244,7 @@
             // lb_SplDef
             // 
             lb_SplDef.AutoSize = true;
-            lb_SplDef.Location = new Point(497, 276);
+            lb_SplDef.Location = new Point(114, 254);
             lb_SplDef.Name = "lb_SplDef";
             lb_SplDef.Size = new Size(58, 20);
             lb_SplDef.TabIndex = 21;
@@ -259,7 +253,7 @@
             // label15
             // 
             label15.AutoSize = true;
-            label15.Location = new Point(695, 226);
+            label15.Location = new Point(312, 204);
             label15.Name = "label15";
             label15.Size = new Size(42, 20);
             label15.TabIndex = 23;
@@ -268,34 +262,34 @@
             // label16
             // 
             label16.AutoSize = true;
-            label16.Location = new Point(714, 173);
+            label16.Location = new Point(298, 151);
             label16.Name = "label16";
-            label16.Size = new Size(23, 20);
+            label16.Size = new Size(56, 20);
             label16.TabIndex = 24;
-            label16.Text = "W";
+            label16.Text = "Weight";
             // 
             // label17
             // 
             label17.AutoSize = true;
-            label17.Location = new Point(717, 119);
+            label17.Location = new Point(300, 97);
             label17.Name = "label17";
-            label17.Size = new Size(20, 20);
+            label17.Size = new Size(54, 20);
             label17.TabIndex = 25;
-            label17.Text = "H";
+            label17.Text = "Height";
             // 
             // label18
             // 
             label18.AutoSize = true;
-            label18.Location = new Point(711, 69);
+            label18.Location = new Point(303, 47);
             label18.Name = "label18";
-            label18.Size = new Size(26, 20);
+            label18.Size = new Size(51, 20);
             label18.TabIndex = 26;
-            label18.Text = "Sp";
+            label18.Text = "Speed";
             // 
             // label19
             // 
             label19.AutoSize = true;
-            label19.Location = new Point(436, 276);
+            label19.Location = new Point(53, 254);
             label19.Name = "label19";
             label19.Size = new Size(54, 20);
             label19.TabIndex = 27;
@@ -304,7 +298,7 @@
             // label20
             // 
             label20.AutoSize = true;
-            label20.Location = new Point(438, 226);
+            label20.Location = new Point(55, 204);
             label20.Name = "label20";
             label20.Size = new Size(52, 20);
             label20.TabIndex = 28;
@@ -313,7 +307,7 @@
             // label21
             // 
             label21.AutoSize = true;
-            label21.Location = new Point(458, 173);
+            label21.Location = new Point(75, 151);
             label21.Name = "label21";
             label21.Size = new Size(33, 20);
             label21.TabIndex = 29;
@@ -322,7 +316,7 @@
             // label22
             // 
             label22.AutoSize = true;
-            label22.Location = new Point(460, 119);
+            label22.Location = new Point(77, 97);
             label22.Name = "label22";
             label22.Size = new Size(31, 20);
             label22.TabIndex = 30;
@@ -331,36 +325,65 @@
             // label23
             // 
             label23.AutoSize = true;
-            label23.Location = new Point(462, 69);
+            label23.Location = new Point(79, 47);
             label23.Name = "label23";
             label23.Size = new Size(29, 20);
             label23.TabIndex = 31;
             label23.Text = "Hp";
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(295, 254);
+            label4.Name = "label4";
+            label4.Size = new Size(59, 20);
+            label4.TabIndex = 32;
+            label4.Text = "Species";
+            // 
+            // lbSpecies
+            // 
+            lbSpecies.AutoSize = true;
+            lbSpecies.Location = new Point(360, 254);
+            lbSpecies.Name = "lbSpecies";
+            lbSpecies.Size = new Size(50, 20);
+            lbSpecies.TabIndex = 33;
+            lbSpecies.Text = "label5";
+            // 
+            // groupBox1
+            // 
+            groupBox1.Controls.Add(lb_Hp);
+            groupBox1.Controls.Add(lbSpecies);
+            groupBox1.Controls.Add(lb_Total);
+            groupBox1.Controls.Add(label4);
+            groupBox1.Controls.Add(lb_W);
+            groupBox1.Controls.Add(label23);
+            groupBox1.Controls.Add(lb_Sp);
+            groupBox1.Controls.Add(label22);
+            groupBox1.Controls.Add(lb_H);
+            groupBox1.Controls.Add(label21);
+            groupBox1.Controls.Add(lb_Atk);
+            groupBox1.Controls.Add(label20);
+            groupBox1.Controls.Add(lb_Def);
+            groupBox1.Controls.Add(label19);
+            groupBox1.Controls.Add(lb_SplAtk);
+            groupBox1.Controls.Add(label18);
+            groupBox1.Controls.Add(lb_SplDef);
+            groupBox1.Controls.Add(label17);
+            groupBox1.Controls.Add(label15);
+            groupBox1.Controls.Add(label16);
+            groupBox1.Location = new Point(393, 20);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(464, 296);
+            groupBox1.TabIndex = 34;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Basic Status";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1028, 678);
-            Controls.Add(label23);
-            Controls.Add(label22);
-            Controls.Add(label21);
-            Controls.Add(label20);
-            Controls.Add(label19);
-            Controls.Add(label18);
-            Controls.Add(label17);
-            Controls.Add(label16);
-            Controls.Add(label15);
-            Controls.Add(lb_SplDef);
-            Controls.Add(lb_SplAtk);
-            Controls.Add(lb_Def);
-            Controls.Add(lb_Atk);
-            Controls.Add(lb_Hp);
-            Controls.Add(lb_H);
-            Controls.Add(lb_Sp);
-            Controls.Add(lb_W);
-            Controls.Add(lb_Total);
-            Controls.Add(label3);
+            ClientSize = new Size(1063, 686);
+            Controls.Add(groupBox1);
             Controls.Add(lbType);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -376,6 +399,8 @@
             Text = "Form1";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -393,7 +418,6 @@
         private Label label1;
         private Label label2;
         private Label lbType;
-        private Label label3;
         private Label lb_Total;
         private Label lb_W;
         private Label lb_Sp;
@@ -412,5 +436,8 @@
         private Label label21;
         private Label label22;
         private Label label23;
+        private Label label4;
+        private Label lbSpecies;
+        private GroupBox groupBox1;
     }
 }
